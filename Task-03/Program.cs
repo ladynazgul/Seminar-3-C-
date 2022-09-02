@@ -1,4 +1,4 @@
-﻿// Возведите число А в натуральную степень В, используя цикл
+// Возведите число А в натуральную степень В, используя цикл
 
 Console.WriteLine("Задайте число: ");
 int A = int.Parse(Console.ReadLine() ?? "0");
@@ -7,7 +7,7 @@ int B = int.Parse(Console.ReadLine() ?? "0");
 
 int Exp(int x, int n)
 {
-	int res = x;
+	int res = 1;
 	for (int i = 0; i < n; i++)
 	{
 		res *= x;
