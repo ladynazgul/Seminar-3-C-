@@ -8,7 +8,7 @@ int B = int.Parse(Console.ReadLine() ?? "0");
 int Exp(int x, int n)
 {
 	int res = x;
-	for (int i = 1; i < n; i++)
+	for (int i = 0; i < n; i++)
 	{
 		res *= x;
 	}
