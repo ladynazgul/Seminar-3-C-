@@ -1,4 +1,4 @@
-﻿// 
+﻿// Найти сумму чисел от 1 до А
 
 Console.WriteLine("Задайте число N: ");
 int N = int.Parse(Console.ReadLine() ?? "0");
