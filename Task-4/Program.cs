@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Показать кубы чисел, заканчивающихся на четную цифру
+
+int[] array = new int { 11, 51, 18, 95, 14, 23, 22, 15, 12 };
+
