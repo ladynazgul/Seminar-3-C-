@@ -44,7 +44,12 @@ Console.WriteLine();
 int[] Evens = arr.Where(el => el % 2 == 0).ToArray();
 
 PrintArray(Evens);
+Console.WriteLine();
 
-int[] EvenCubes = Evens.Where(el => el * el * el);
+double[] Evens1 = Evens.Select(x => Convert.ToDouble(x)).ToArray();
 
-PrintArray(EvenCubes); 
+foreach (var number in Evens1)
+{
+    //Выводим в консоль значение каждой переменной из последовательности, предворительно возводя её в степень при помощи Math.Pow()
+    Console.Write(Math.Pow(number, 3) + " ");
+}
